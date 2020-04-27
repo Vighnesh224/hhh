@@ -3,7 +3,7 @@
 if (isset($_GET['c']))
 {
 	$file = 'huh.txt';
-	file_put_contents($file, $_GET['huh'].PHP_EOL, FILE_APPEND);
+	file_put_contents($file, $_GET['c'].PHP_EOL, FILE_APPEND);
 }
 
 
