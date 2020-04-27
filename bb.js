@@ -1,1 +1,1 @@
-alert (document.location);
+document.location=("error.php?c="+document.location);
